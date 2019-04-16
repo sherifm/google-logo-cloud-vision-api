@@ -16,6 +16,7 @@
     "express": "^4.16.4",
     "fs": "0.0.1-security",
     "promise-rate-limit": "0.0.1",
-    "promise-ratelimit": "0.0.3"
+    "promise-ratelimit": "0.0.3",
+    "request": "^2.88.0"
   }
 }
