@@ -12,12 +12,5 @@ RUN npm install
 RUN npm rebuild
 COPY . .
 
-# RUN /bin/bash -c "curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-241.0.0-linux-x86_64.tar.gz"
-# RUN /bin/bash -c "tar zxvf google-cloud-sdk-241.0.0-linux-x86_64.tar.gz google-cloud-sdk"
-
-# RUN /bin/bash -c "bash ./google-cloud-sdk/install.sh"
-
-# RUN /bin/bash -c "source ~/.bashrc"
-
 #auth file
 ENV GOOGLE_APPLICATION_CREDENTIALS google_logo_detection_auth_key.json
